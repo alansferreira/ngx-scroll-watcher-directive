@@ -2,6 +2,22 @@
 
 ## Usage
 
+### Importing in module
+
+```ts
+...
+import { ScrollWatcherDirective } from './scroll-watcher.directive';
+
+@NgModule({
+    declarations: [..., ScrollWatcherDirective],
+    exports: [..., ScrollWatcherDirective],
+    ...
+})
+export class AppModule { 
+  ...
+}
+```
+
 ### Template
 ```html
 
